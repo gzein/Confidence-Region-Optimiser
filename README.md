@@ -9,7 +9,7 @@ suppose $\hat{\theta}_n$ is a consistent sequence of MLEs. Then,
 $$\sqrt{n}(\hat{\theta}_n - \theta_0) \to^d MVN(0, I_f(\theta_0)^{-1})$$
 Where $I_f(\theta_0)^{-1}$ is the Fisher Information of the sample.
 
-In practise, we may assume this asymptotic relation to be an exact one, and we may thus construct our $1-\alpha$ confidence regions using the normal distribution. For $n$ large, this approximation is good. Can we improve it, and make it better for smaller $n$?
+In practise, we may assume this asymptotic relation to be an exact one, and we may thus construct our $1-\alpha$ confidence regions using the normal distribution. For $n$ large, this approximation is good. Can we improve it, and make it more effective for smaller $n$?
 
 It turns out we can make use of the likelihood ratio test.
 
